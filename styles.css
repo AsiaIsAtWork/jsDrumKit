@@ -7,19 +7,45 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url("./assets/bkgd.png");
+    font-family: 'Poppins', sans-serif;
 }
 
 .drums {
     display: block;
     position: fixed;
-    bottom: 132px;
+    bottom: 240px;
     right: 30%;
 }
 
 .key-container {
     width: 100%;
-    height: 200px;
+    height: 300px;
     position: fixed;
     bottom: 0;
     background-color: #2C306F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.keys {
+    min-width: 96px;
+    height: 96px;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 12px 0px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.playing {
+    color: #ffd96d;
+    border: 2px solid #ffd96d;
+    box-shadow: 0px 2px 0px #ffd96d;
 }
